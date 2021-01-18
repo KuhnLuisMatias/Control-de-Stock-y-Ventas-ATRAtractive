@@ -18,8 +18,8 @@ namespace ATRActractive
             fb_conexion.Password = "masterkey";
             fb_conexion.Dialect = 3;
             fb_conexion.Database = @"C:\ATRSistema\BD\DB_ATR.FDB";
-            fb_conexion.DataSource = "25.95.160.2"; //Host
-            //fb_conexion.DataSource = "25.36.182.174" Client;
+            fb_conexion.DataSource = "IPHOST"; //Host
+            //fb_conexion.DataSource = "IPCLIENT" Client;
             //fb_conexion.DataSource = "localhost";
             fb_conexion.Pooling = true;
             fb_conexion.Port = 3050;
