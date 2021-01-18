@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix3">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>1.07125cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.6cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde4">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Hora</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde5">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Hora.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="Detalles3" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>1.41167cm</Top>
+        <Left>0.3175cm</Left>
+        <Height>0.6cm</Height>
+        <Width>3.57125cm</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+      <Tablix Name="Tablix4">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>3.83615cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>3.47896cm</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.6cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde6">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Pedidos Realizados</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde7">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!PedidosRealizados.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="Detalles4" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>7.43879cm</Top>
+        <Left>1.20417cm</Left>
+        <Height>0.6cm</Height>
+        <Width>7.31511cm</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+      <Tablix Name="Tablix5">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>4.89502cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>3.95521cm</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.6cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde8">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Transferencias Bancarias $</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde9">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!TotalVendidoCBU.Value</Value>
+                              <Style>
+                                <Format>#,0;(#,0)</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="Detalles5" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>13.21875cm</Top>
+        <Left>3.50799cm</Left>
+        <Height>0.6cm</Height>
+        <Width>8.85023cm</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+      <Tablix Name="Tablix6">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>2.08382cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>3.46507cm</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.6cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde10">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Crédito $</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde11">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!TotalVendidoCredito.Value</Value>
+                              <Style>
+                                <Format>#,0;(#,0)</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="Detalles6" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>12.36968cm</Top>
+        <Left>6.80933cm</Left>
+        <Height>0.6cm</Height>
+        <Width>5.54889cm</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+      <Tablix Name="Tablix7">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>2.08382cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>3.4525cm</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.6cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde12">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Débito $</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde13">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!TotalVendidoDebito.Value</Value>
+                              <Style>
+                                <Format>#,0;(#,0)</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="Detalles7" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>11.5206cm</Top>
+        <Left>6.8219cm</Left>
+        <Height>0.6cm</Height>
+        <Width>5.53632cm</Width>
+        <ZIndex>4</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+      <Tablix Name="Tablix8">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>2.15541cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>3.45911cm</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.6cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde14">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Efectivo $</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde15">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!TotalVendidoEfectivo.Value</Value>
+                              <Style>
+                                <Format>#,0;(#,0)</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="Detalles8" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>10.67152cm</Top>
+        <Left>6.7437cm</Left>
+        <Height>0.6cm</Height>
+        <Width>5.61452cm</Width>
+        <ZIndex>5</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+      <Tablix Name="Tablix9">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>3.99926cm</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>1.15562cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde17">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Vendedor.Value</Value>
+                              <Style>
+                                <FontSize>20pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="Detalles9" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>4.91808cm</Top>
+        <Left>6.88034cm</Left>
+        <Height>1.15562cm</Height>
+        <Width>3.99926cm</Width>
+        <ZIndex>6</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+      <Tablix Name="Tablix10">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>3.63771cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.98948cm</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.6cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde18">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Ventas Realizadas</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde19">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!VentasRealizadas.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="Detalles10" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>7.43879cm</Top>
+        <Left>9.14167cm</Left>
+        <Height>0.6cm</Height>
+        <Width>6.62719cm</Width>
+        <ZIndex>7</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+      <Textbox Name="Textbox2">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>A T R</Value>
+                <Style>
+                  <FontFamily>nexa Demo</FontFamily>
+                  <FontSize>36pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox2</rd:DefaultName>
+        <Top>0.3175cm</Top>
+        <Left>6.7437cm</Left>
+        <Height>1.73771cm</Height>
+        <Width>3.61125cm</Width>
+        <ZIndex>8</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox3">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>A  T  T  R  A   C  T  I  V  E </Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontFamily>NEXA Demo</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox3</rd:DefaultName>
+        <Top>2.2316cm</Top>
+        <Left>6.5169cm</Left>
+        <Height>0.6cm</Height>
+        <Width>5.29675cm</Width>
+        <ZIndex>9</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox4">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>R  O  P  A        D E P O R T I V A</Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontFamily>NEXA Demo</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox3</rd:DefaultName>
+        <Top>3.00799cm</Top>
+        <Left>6.1068cm</Left>
+        <Height>0.6cm</Height>
+        <Width>6.19699cm</Width>
+        <ZIndex>10</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox13">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Vendedor</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox13</rd:DefaultName>
+        <Top>4.2839cm</Top>
+        <Left>7.62997cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.5cm</Width>
+        <ZIndex>11</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Tablix Name="Tablix1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>1.5475cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.6cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Desde :</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde1">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!FechaDesde.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="Detalles" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>6.5359cm</Top>
+        <Left>3.49282cm</Left>
+        <Height>0.6cm</Height>
+        <Width>4.0475cm</Width>
+        <ZIndex>12</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+      <Tablix Name="Tablix2">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>1.5475cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.6cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde2">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Hasta :</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde3">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!FechaHasta.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="Detalles2" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>6.5359cm</Top>
+        <Left>9.63115cm</Left>
+        <Height>0.6cm</Height>
+        <Width>4.0475cm</Width>
+        <ZIndex>13</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+      <Tablix Name="Tablix11">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>5.45072cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>3.95521cm</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.6cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde16">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Transferencias MercadoPago $</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="FechaDesde20">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!TotalVendidoMercadoPago.Value</Value>
+                              <Style>
+                                <Format>#,0;(#,0)</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>FechaDesde1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="Detalles11" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>14.06783cm</Top>
+        <Left>2.95229cm</Left>
+        <Height>0.6cm</Height>
+        <Width>9.40593cm</Width>
+        <ZIndex>14</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+      <Textbox Name="Textbox14">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>TOTAL</Value>
+                <Style>
+                  <FontSize>16pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox13</rd:DefaultName>
+        <Top>8.99554cm</Top>
+        <Left>7.53747cm</Left>
+        <Height>0.67938cm</Height>
+        <Width>2.5cm</Width>
+        <ZIndex>15</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Line Name="Line1">
+        <Top>10.32756cm</Top>
+        <Left>1.38875cm</Left>
+        <Height>0cm</Height>
+        <Width>14.38011cm</Width>
+        <ZIndex>16</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+        </Style>
+      </Line>
+    </ReportItems>
+    <Height>5.9433in</Height>
+    <Style />
+  </Body>
+  <Width>6.6978in</Width>
+  <Page>
+    <PageHeight>29.7cm</PageHeight>
+    <PageWidth>21cm</PageWidth>
+    <LeftMargin>2cm</LeftMargin>
+    <RightMargin>2cm</RightMargin>
+    <TopMargin>2cm</TopMargin>
+    <BottomMargin>2cm</BottomMargin>
+    <ColumnSpacing>0.13cm</ColumnSpacing>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="NegocioClases">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>99596bf7-88f6-4522-9384-d7548b4c89eb</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>NegocioClases</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="FechaDesde">
+          <DataField>FechaDesde</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FechaHasta">
+          <DataField>FechaHasta</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Hora">
+          <DataField>Hora</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PedidosRealizados">
+          <DataField>PedidosRealizados</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TotalVendidoCBU">
+          <DataField>TotalVendidoCBU</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TotalVendidoCredito">
+          <DataField>TotalVendidoCredito</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TotalVendidoDebito">
+          <DataField>TotalVendidoDebito</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TotalVendidoEfectivo">
+          <DataField>TotalVendidoEfectivo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TotalVendidoMercadoPago">
+          <DataField>TotalVendidoMercadoPago</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Vendedor">
+          <DataField>Vendedor</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="VentasRealizadas">
+          <DataField>VentasRealizadas</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>Negocio.Clases</rd:DataSetName>
+        <rd:TableName>Planilla_Cierre</rd:TableName>
+        <rd:ObjectDataSourceType>Negocio.Clases.Planilla_Cierre, Negocio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <EmbeddedImages>
+    <EmbeddedImage Name="Inicio">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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
+gOAFABC8AEDwAgDBCwAgeAGA4AUAELwAQPACAAheACB4AYDgBQAQvABA8AIACF4AIHgBAAQvABC8AEDwAgAIXgAgeAEABC8AELwAAIIXAAheACB4AQAELwAQvAAAghcACF4AAMELAAQvABC8AACCFwAIXgAAwQsABC8AgOAFAIIXAAheAADBCwAELwCA4AUAghcAQPACAMELAAQvAIDgBQCCFwBA8AIAwQsAIHgBgOAFAIIXAEDwAgDBCwAgeAGA4AUAELwAQPACAMELACB4AYDgBQAQvABA8AIACF4AIHgBgOAFABC8AEDwAgAIXgAgeAEABC8AELwAAIIXAAheACB4AQAELwAQvAAAghcACF4AAMELAAQvABC8AACCFwAIXgAAwQsABC8AgOAFAIIXAAheAADBCwAELwCA4AUAghcAQPACAMELAAQvAIDgBQCCFwBA8AIAwQsAIHgBgOAFAIIXAEDwAgDBCwAgeAGA4AUAELwAQPACAMELACB4AYDgBQAQvABA8AIACF4AIHgBgOAFABC8AEDwAgAIXgAgeAEABC8AELwAQPACAAheACB4AQAELwAQvAAAghcACF4AIHgBAAQvABC8AACCFwAIXgAAwQsABC8AELwAAIIXAAheAADBCwAELwCA4AUAghcACF4AAMELAAQvAIDgBQCCFwBA8AIAwQsABC8AgOAFAIIXAEDwAgDBCwAgeAGA4AUAELwAQPACAMELACB4AcB4/f8DACICk5z0f59YAAAAAElFTkSuQmCC</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>275c0a09-41f1-442a-b194-cc999e3f30fe</rd:ReportID>
+</Report>
